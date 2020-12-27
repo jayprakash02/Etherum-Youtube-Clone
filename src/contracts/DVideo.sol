@@ -14,7 +14,7 @@ contract DVideo {
   constructor() public {
   }
 
-  function uploadVideo(string memory _videoHash, string memory _title) public {
+  //function uploadVideo(string memory _videoHash, string memory _title) public {
     // Make sure the video hash exists
 
     // Make sure video title exists
@@ -28,5 +28,5 @@ contract DVideo {
 
     // Trigger an event
 
-  }
+  //}
 }
